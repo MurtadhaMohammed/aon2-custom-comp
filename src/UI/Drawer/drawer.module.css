@@ -1,0 +1,23 @@
+.drawer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background-color: #08070991;
+  transition: 0.3s;
+}
+
+.content {
+  position: fixed;
+  right: -300px;
+  top: 0;
+  bottom: 0;
+  background-color: #fff;
+  width: 300px;
+  box-shadow: -4px 1px 14px 0px #00000061;
+  transition: .3s;
+}
